@@ -1,3 +1,7 @@
+---
+permalink: /docs/quick-guid
+---
+
 # How to compile on Android
 
 'NOTE: Tested on rooted Android 6
@@ -14,7 +18,6 @@ This document explains the second way.
 
 Download and install the Termux application. Open the Termux after install. Next steps we need to do inside it.
 
-
 - Step 2 :  Install the dependency packages
 
         Run following command, to install the development dependencies:
@@ -23,8 +26,8 @@ Download and install the Termux application. Open the Termux after install. Next
 
 - Step 3 : Install a GCC
 
-I can't build the ccminer with clang that default compiler which comes with Termux (and Termux makes clang as alias for gcc). Also, 
-Termux deprecated a real gcc compiler tools, 
+I can't build the ccminer with clang that default compiler which comes with Termux (and Termux makes clang as alias for gcc). Also,
+Termux deprecated a real gcc compiler tools,
 so we need to use Its-Pointless Termux repo, to install gcc from it.
 
 Run the following command, to set-up Its-Pointless Termux Repo:
@@ -47,18 +50,18 @@ Then change the current directory:
 
 cd ccminer
 
-To build ccminer from sources we need to switch the default clang compiler to the gcc we installed on step 3 by executing following commands:
+To build ccminer from sources we need to switch the default clang compiler to the gcc we installed on step 3 by 
+executing following commands:
 
-setupgcc-6
+```setupgcc-6```
 
 (or setupgcc-7, setupgcc-8, setupgcc-9, setupgcc-10)
-
 and then (to make configure process happy)
 
-setup-patchforgcc
+```setup-patchforgcc```
 
 Then start the build:
 
-./build.sh
+```./build.sh```
 
 After successful build you can run built ccminer binary file to start the mining
