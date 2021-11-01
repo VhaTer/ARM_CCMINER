@@ -1,6 +1,3 @@
----
-permalink: /docs/quick-guid
----
 
 # How to compile on Android
 
