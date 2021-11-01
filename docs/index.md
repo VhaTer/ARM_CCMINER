@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
+---
+permalink: /docs/quick-guid
+---
 
-You can use the [editor on GitHub](https://github.com/VhaTer/PureHate/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+# How to compile on Android
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+'NOTE: Tested on rooted Android 6
+      and a non rooted huwai p20 lite Android 9'
 
-### Markdown
+There are two methods (or more?), to compile ccminer on Android:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+By installing a Linux distribution with help of Termux + proot-distro: <https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f>
 
-```markdown
-Syntax highlighted code block
+By compiling without the any Linux distribution, purely on the system.
+This document explains the second way.
 
-# Header 1
-## Header 2
-### Header 3
+- Step 1 :  Install the Termux
 
-- Bulleted
-- List
+Download and install the Termux application. Open the Termux after install. Next steps we need to do inside it.
 
-1. Numbered
-2. List
+- Step 2 :  Install the dependency packages
 
-**Bold** and _Italic_ and `Code` text
+        Run following command, to install the development dependencies:
 
-[Link](url) and ![Image](src)
-```
+```pkg install automake build-essential curl git gnupg openssl nano```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Step 3 : Install a GCC
 
-### Jekyll Themes
+I can't build the ccminer with clang that default compiler which comes with Termux (and Termux makes clang as alias for gcc). Also,
+Termux deprecated a real gcc compiler tools,
+so we need to use Its-Pointless Termux repo, to install gcc from it.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/VhaTer/PureHate/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Run the following command, to set-up Its-Pointless Termux Repo:
 
-### Support or Contact
+```curl -s <https://its-pointless.github.io/setup-pointless-repo.sh> | bash```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Then we need to install gcc-6 (or gcc-7, gcc-8, gcc-9, gcc-10) package:
+
+```pkg install gcc-6```
+
+(or pkg install gcc-7, pkg install gcc-8, pkg install gcc-9, pkg install gcc-10, it depends on the Android version you are running)
+
+- Step 4 :
+
+Build Clone the ccminer git repo (ARM branch):
+
+git clone --single-branch -b ARM <https://github.com/shmutalov/ccminer.git>
+
+Then change the current directory:
+
+cd ccminer
+
+To build ccminer from sources we need to switch the default clang compiler to the gcc we installed on step 3 by 
+executing following commands:
+
+```setupgcc-6```
+
+(or setupgcc-7, setupgcc-8, setupgcc-9, setupgcc-10)
+and then (to make configure process happy)
+
+```setup-patchforgcc```
+
+Then start the build:
+
+```./build.sh```
+
+After successful build you can run built ccminer binary file to start the mining
