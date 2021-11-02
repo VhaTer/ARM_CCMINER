@@ -1,27 +1,34 @@
+# Quick Guid on Android Mining For VerusCoin Users
 
-# How to compile on Android
+the very fastest easy way made by Lukretsiy verus community member
+is the veruscoinMiner9000  application no more.
 
-'NOTE: Tested on rooted Android 6
-      and a non rooted huwai p20 lite Android 9'
+- <https://docs.verus.io/economy/start-mining.html#mobile>
+
+- <https://github.com/shmutalov/VerusMiner9000/releases>
+
+Alternatives:
 
 There are two methods (or more?), to compile ccminer on Android:
 
-By installing a Linux distribution with help of Termux + proot-distro: <https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f>
+1 - By installing a Linux distribution with help of [Termux + proot-distro](https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f)
 
-By compiling without the any Linux distribution, purely on the system.
-This document explains the second way.
+2 - By compiling without any chrooted Linux distribution , using just `termux` the android terminal emulator.This document try expand and explains the second way.
 
-- Step 1 :  Install the Termux
+You can obtain Termux builds from [F-droid](https://f-droid.org/packages/com.termux/)
 
-Download and install the Termux application. Open the Termux after install. Next steps we need to do inside it.
+Do not install it from Google Play.according to termux wiki
 
-- Step 2 :  Install the dependency packages
+"_scroll down to apk link no need to install f-droid_"
 
-        Run following command, to install the development dependencies:
+You can Also find termux apk link on the release section under "Asset"  on Github Link  :<https://github.com/termux/termux-app>
+
+We need to install additional dependency pakages,
+Run following commands inside the termux shell
 
 ```pkg install automake build-essential curl git gnupg openssl nano```
 
-- Step 3 : Install a GCC
+Install a GCC
 
 I can't build the ccminer with clang that default compiler which comes with Termux (and Termux makes clang as alias for gcc). Also,
 Termux deprecated a real gcc compiler tools,
@@ -47,7 +54,7 @@ Then change the current directory:
 
 cd ccminer
 
-To build ccminer from sources we need to switch the default clang compiler to the gcc we installed on step 3 by 
+To build ccminer from sources we need to switch the default clang compiler to the gcc we installed on step 3 by
 executing following commands:
 
 ```setupgcc-6```
