@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /index.md/
 ---
 # Quick Guid on Android Mining For VerusCoin Users
 
