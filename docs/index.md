@@ -1,7 +1,3 @@
----
-layout: home
----
-
 # Quick Guid on Android Mining For VerusCoin Users
 
 the very fastest easy way made by Lukretsiy verus community member
