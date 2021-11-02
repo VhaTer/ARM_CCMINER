@@ -36,12 +36,12 @@ Or  From [Github Repository](https://github.com/termux/termux-app) , on the rele
 
 launch the application and issue 
 
-            ```pkg update && pkg upgrade```
+```pkg update && pkg upgrade```
  
 Next step We need to install some additionals dependency pakages , we can stay on same termux shell windows 
 and run the following commands 
 
-            ```pkg install automake build-essential curl git gnupg openssl nano```
+`sh pkg install automake build-essential curl git gnupg openssl nano`
 
 Installing `GCC`
 I can't build the ccminer with clang that default compiler which comes with Termux (and Termux makes clang as alias for gcc). Also,
