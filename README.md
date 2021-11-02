@@ -1,5 +1,5 @@
 
-# Quick Guid on Android Mining For VerusCoin Users
+## Quick Guid on Android Mining For VerusCoin Users
 
 The very fastest and easy way made by @shmutalov  (aKa.Lukretsiy) verus community member
 is the `VerusCoinMiner9000` application no more.
@@ -29,6 +29,7 @@ There are two methods (or more?), to compile ccminer on Android:
 Prerequests: 
 
 First obtain Termux builds From [F-droid](https://f-droid.org/packages/com.termux/)
+
 "_According to the Termux Wiki Do not install it from Google Play. in addition scroll down to apk link no need to install f-droid_"
 
 Or  From [Github Repository](https://github.com/termux/termux-app) , on the release section under "Asset" 
