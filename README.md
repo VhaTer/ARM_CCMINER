@@ -4,11 +4,11 @@
 The very fastest and easy way made by @shmutalov  (aKa.Lukretsiy) verus community member
 is the `VerusCoinMiner9000` application no more.
 
-You can Get the `.apk` from :
+You can Get the `.apk` from 
 
-       [official Verus Project Website](https://docs.verus.io/economy/start-mining.html#mobile)
+  [official Verus Project Website](https://docs.verus.io/economy/start-mining.html#mobile)
 
-       [from Github](https://github.com/shmutalov/VerusMiner9000/releases)
+  [from Github](https://github.com/shmutalov/VerusMiner9000/releases)
 
 
 
@@ -28,24 +28,21 @@ There are two methods (or more?), to compile ccminer on Android:
 
 Prerequests: 
 
-First obtain Termux builds 
+First obtain Termux builds From [F-droid](https://f-droid.org/packages/com.termux/)
+"_According to the Termux Wiki Do not install it from Google Play. in addition scroll down to apk link no need to install f-droid_"
 
-- a) From [F-droid](https://f-droid.org/packages/com.termux/)
-     "_According to the Termux Wiki Do not install it from Google Play. in addition scroll down to apk link no need to install f-droid_"
+Or  From [Github Repository](https://github.com/termux/termux-app) , on the release section under "Asset" 
 
-- b) From [Github Repository](https://github.com/termux/termux-app) , on the release section under "Asset" 
-
-on first termux usage issue to have an up to date pkgs 
+launch the application and issue 
 
             ```pkg update && pkg upgrade```
  
-Next step We need to install some additionals dependency pakages 
-
-run the following commands inside the 'same' termux shell
+Next step We need to install some additionals dependency pakages , we can stay on same termux shell windows 
+and run the following commands 
 
             ```pkg install automake build-essential curl git gnupg openssl nano```
 
-Install a GCC
+Installing `GCC`
 I can't build the ccminer with clang that default compiler which comes with Termux (and Termux makes clang as alias for gcc). Also,
 Termux deprecated a real gcc compiler tools,so we need to use Its-Pointless Termux repo, to install gcc from it.
 Run the following command, to set-up Its-Pointless Termux Repo:
