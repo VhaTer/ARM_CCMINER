@@ -3,27 +3,40 @@
 the very fastest easy way made by Lukretsiy verus community member
 is the veruscoinMiner9000  application no more.
 
-- <https://docs.verus.io/economy/start-mining.html#mobile>
+Get the apk from :
+      - [official Verus Project Website](https://docs.verus.io/economy/start-mining.html#mobile) *Recommended*
+      - [from Github](https://github.com/shmutalov/VerusMiner9000/releases)
 
-- <https://github.com/shmutalov/VerusMiner9000/releases>
 
-Alternatives:
+
+someone make a apk install and configuration blahblahblah ......
+
+
+## Alternatives:
 
 There are two methods (or more?), to compile ccminer on Android:
 
 1 - By installing a Linux distribution with help of [Termux + proot-distro](https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f)
 
-2 - By compiling without any chrooted Linux distribution , using just `termux` the android terminal emulator.This document try expand and explains the second way.
+2 - By compiling without any chrooted Linux distribution , 
+    using just `termux` the android terminal emulator.
+    This document try expand and explains the (2) second methode.
 
-You can obtain Termux builds from [F-droid](https://f-droid.org/packages/com.termux/)
 
-Do not install it from Google Play.according to termux wiki
+Prerequests: 
 
-"_scroll down to apk link no need to install f-droid_"
+First obtain Termux builds 
 
-You can Also find termux apk link on the release section under "Asset"  on Github Link  :<https://github.com/termux/termux-app>
+- a) From [F-droid](https://f-droid.org/packages/com.termux/)
+ 
+ "_According to the Termux Wiki Do not install it from Google Play. in addition 
+ scroll down to apk link no need to install f-droid_"
 
-We need to install additional dependency pakages,
+ - b) From [Github Repository](https://github.com/termux/termux-app) , 
+    on the release section under "Asset" 
+
+
+Next Step We need to install some additional dependency pakages,
 Run following commands inside the termux shell
 
 ```pkg install automake build-essential curl git gnupg openssl nano```
