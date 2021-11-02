@@ -1,3 +1,6 @@
+---
+permalink: /
+---
 # Quick Guid on Android Mining For VerusCoin Users
 
 The very fastest and easy way made by @shmutalov  (aKa.Lukretsiy) verus community member
