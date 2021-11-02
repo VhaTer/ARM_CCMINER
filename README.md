@@ -1,29 +1,34 @@
 # Quick Guid on Android Mining For VerusCoin Users
 
-the very fastest easy way made by @shmutalov aka #Lukretsiy for the  Android Version is the veruscoinMiner9000
- The IOS version brought by @MR-Bossman aka #Jess 
- CCminer-IOS ,Grap the `verus.ipa` from herehis github repo [here](https://github.com/Mr-Bossman/CCminer-IOS/releases) and follow with all the Instructions to install and run the Miner 
+Note that their are already two Smartphones Miners applications out for Ios and Android that save you time and worth a try 
+
+ 
+`VerusCoinMiner9000` For Android smatphone and tablettes by @sh
+Get it [Here](https://docs.verus.io/economy/start-mining.html#mobile
+) Or [Here](https://github.com/shmutalov/VerusMiner9000/releases
+)
 
 
-- <https://docs.verus.io/economy/start-mining.html#mobile>
 
-- <https://github.com/shmutalov/VerusMiner9000/releases>
+`CCminer-IOS` ,The IOS version brought by @MR-Bossman aka #Jess , Head up to  his github repo [here](https://github.com/Mr-Bossman/CCminer-IOS/releases) and follow  all the Instructions on the readMe file carefully  
 
-Alternatives:
 
-There are two methods (or more?), to compile ccminer on Android:
+There are two others methods (or more?), to compile ccminer on Android:
 
-1 - By installing a Linux distribution with help of [Termux + proot-distro](https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f)
+1 - By installing a Linux distribution with help of [Termux + proot-distro](https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f) explained on the article 
 
-2 - By compiling without any chrooted Linux distribution , using just `termux` the android terminal emulator.This document try expand and explains the second way.
+2 - By compiling without any chrooted Linux distribution , using just `termux` the android terminal emulator.
 
-You can obtain Termux builds from [F-droid](https://f-droid.org/packages/com.termux/)
+
+
+This document try expand and explains the second way.
+
+before we start compiling `ccminer` we need to install `Termux` obtain Termux builds from F-droid [](https://f-droid.org/packages/com.termux/)
 
 Do not install it from Google Play.according to termux wiki
-
 "_scroll down to apk link no need to install f-droid_"
 
-You can Also find termux apk link on the release section under "Asset"  on Github Link  :<https://github.com/termux/termux-app>
+You can Also Obtain  termux apk on the release section under "Asset" [here](https://github.com/termux/termux-app)
 
 We need to install additional dependency pakages,
 Run following commands inside the termux shell
@@ -70,4 +75,21 @@ Then start the build:
 
 ```./build.sh```
 
+```
 After successful build you can run built ccminer binary file to start the mining
+apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package libjansson-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  libjansson
+
+E: Unable to locate package libcurl4-openssl-dev
+E: Unable to locate package libssl-dev
+E: Package 'libjansson-dev' has no installation candidate
+E: Unable to locate package autotools-dev```
+
