@@ -2,17 +2,16 @@
 
 Their are already two Miners applications out for Ios and Android that save you time and worth a try
 
-## android icon
+- Android :
 
-`VerusCoinMiner9000` For Android smatphone and tablettes by @shmutalov aka Lukeisky Get ita [Here](https://docs.verus.io/economy/start-mining.html#mobile
+`VerusCoinMiner9000` For Android smatphones/tablettes made possible by @shmutalov aka Lukeisky Get it [Here](https://docs.verus.io/economy/start-mining.html#mobile
 ) Or [Here](https://github.com/shmutalov/VerusMiner9000/releases
 )
 
-### I0S 
 `CCminer-IOS` ,The IOS version brought by @MR-Bossman aka #Jess , Head up to  his github repo [here](https://github.com/Mr-Bossman/CCminer-IOS/releases) and follow  all the Instructions on the readMe file carefully  
 
 
-#### Command Line 
+Command Line 
 
 There are two others methods (or more?), to compile ccminer on Android:
 
@@ -30,27 +29,34 @@ You can Also Obtain `termux.apk` on the [Github release section under "Asset"](h
 After a succesful install launch the application
 
 We need to install some basic additional pakages, like nano , git.
-_**Run following commands inside the `termux` shell Windows._
+_Run following commands inside the termux shell Window._
  
 ``` pkg install automake build-essential curl git gnupg openssl nano```
 
 
 ## Compile instructions:
-_**Run following commands inside the `termux` shell Windows._
+
+_Run following commands inside the termux shell Window._
 
 ```apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential```
 
-Clone ccminer/ARM branch repository
+Clone the ccminer git repo (ARM branch):
 
 ```git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git && cd ccminer```
 
 if you get no errors then you end on the `ccminer folder`,
-next run
+
+Make Scripts Executables
+
         ```chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh```
-to buid our binary run  ```./build.sh```
 
-apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+buid the miner  binarie   ```./build.sh``` 
 
+if all go fine and End no errors we should find on the folder our newly fresh ccminer binaries ready for use 
+
+```shell
+NOTES :
+**apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential**
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
@@ -59,8 +65,8 @@ This may mean that the package is missing, has been obsoleted, or
 is only available from another source
 However the following packages replace it:
   libjansson
-
 E: Unable to locate package libcurl4-openssl-dev
 E: Unable to locate package libssl-dev
 E: Package 'libjansson-dev' has no installation candidate
-E: Unable to locate package autotools-dev```
+E: Unable to locate package autotools-dev`
+```
