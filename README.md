@@ -5,12 +5,12 @@ Their are already two Miners applications out for I0S and Android that save you 
 
 - Android :
  
-`VerusCoinMiner9000` For Android smatphone and tablettes by @shmutalov aka Lukeisky Get it [Here](https://docs.verus.io/economy/start-mining.html#mobile) Or [Here](https://github.com/shmutalov/VerusMiner9000/releases)
+`VerusCoinMiner9000` For Android smatphone and tablettes by @shmutalov aka Lukeisky Get it [Here](https://docs.verus.io/economy/start-mining.html#mobile){:target="\_blank"} Or [Here](https://github.com/shmutalov/VerusMiner9000/releases){:target="\_blank"}
 
 
 - I0S :
  
-`CCminer-IOS` ,The IOS version brought by @MR-Bossman aka #Jess , Head up to  his github repo [here](https://github.com/Mr-Bossman/CCminer-IOS/releases) and follow carefully the Instructions on the read-Me file.
+`CCminer-IOS` ,The IOS version brought by @MR-Bossman aka #Jess , Head up to  his github repo [here](https://github.com/Mr-Bossman/CCminer-IOS/releases){:target="\_blank"} and follow carefully the Instructions on the read-Me file.
 
 - Command Line: 💻
  
