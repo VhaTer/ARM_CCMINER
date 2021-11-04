@@ -1,4 +1,6 @@
-Quick Guide on Android Mining For VerusCoin Users
+## Quick Guide on Android Mining For VerusCoin Users
+
+
 Their are already two Miners applications out for I0S and Android that save you time and worth a try
 
 Android :
