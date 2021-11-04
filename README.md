@@ -4,9 +4,8 @@
 Their are already two Miners applications out for I0S and Android that save you time and worth a try
 
 - Android :
-- 
-`VerusCoinMiner9000` For Android smatphone and tablettes by @shmutalov aka Lukeisky Get it [Here](https://docs.verus.io/economy/start-mining.html#mobile) 
-Or [Here](https://github.com/shmutalov/VerusMiner9000/releases)
+ 
+`VerusCoinMiner9000` For Android smatphone and tablettes by @shmutalov aka Lukeisky Get it [Here](https://docs.verus.io/economy/start-mining.html#mobile) Or [Here](https://github.com/shmutalov/VerusMiner9000/releases)
 
 
 - I0S :
@@ -38,13 +37,13 @@ automake autotools-dev build-essential
 ```
 
 if after this command you get this error :
-`Package libjansson-dev is not available, but is referred to by another package. 
- This may mean that the package is missing, has been obsoleted, or is only available 
- from another source However the following packages replace it: libjansson 
- E: Unable to locate package libcurl4-openssl-dev 
- E: Unable to locate package libssl-dev 
- E: Package ‘libjansson-dev’ has no installation candidate 
- E: Unable to locate package autotools-dev`
+Package libjansson-dev is not available, but is referred to by another package. 
+This may mean that the package is missing, has been obsoleted, or is only available 
+from another source However the following packages replace it: libjansson 
+E: Unable to locate package libcurl4-openssl-dev 
+E: Unable to locate package libssl-dev 
+E: Package ‘libjansson-dev’ has no installation candidate 
+E: Unable to locate package autotools-dev
 
 just remove them from the command and install the available or suggested ones like so
 
@@ -60,7 +59,7 @@ git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git && c
 ```
 if you get no errors then you end on the ccminer folder,
 
-Make Scripts Executable
+Make Scripts Executables
 
 ```shell
 chmod +x build.sh && chmod +x configure.sh && chmod +x autogen.sh
@@ -71,4 +70,5 @@ buid the miner binarie
 ```shell
 ./build.sh
 ```
+
 if all go fine and End no errors we should find on the folder a fresh ccminer binaries ready for use .
