@@ -12,7 +12,7 @@ Their are already two Miners applications out for Ios and Android that save you 
 
 `CCminer-IOS` ,The IOS version brought by @MR-Bossman aka #Jess , Head up to  his github repo [here](https://github.com/Mr-Bossman/CCminer-IOS/releases) and follow  all the Instructions on the readMe file carefully  
 
--Command Line: 
+- Command Line: 
 
 There are two others methods (or more?), to compile ccminer on Android:
 The first methode is  installing a Linux distribution with help of [Termux + proot-distro](https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f) discribed on the article .
@@ -35,23 +35,23 @@ After a succesful install launch the application We are going to Run all the com
   pkg install automake build-essential curl git gnupg openssl nano
   ```
   
-## Compile instructions:
-
 ```shell
-apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev
+automake autotools-dev build-essential
 ```
-
-_if after this command you get this error :
-Package libjansson-dev is not available, but is referred to by another package.
-This may mean that the package is missing, has been obsoleted, or
-is only available from another source
-However the following packages replace it:
-  libjansson
-E: Unable to locate package libcurl4-openssl-dev
-E: Unable to locate package libssl-dev
-E: Package 'libjansson-dev' has no installation candidate
-E: Unable to locate package autotools-dev`_
-
+if after this command you get this error :
+`
+ Package libjansson-dev is not available, but is referred to by another package.
+ This may mean that the package is missing, has been obsoleted, or
+ is only available from another source
+ However the following packages replace it:
+ libjansson
+ E: Unable to locate package libcurl4-openssl-dev
+ E: Unable to locate package libssl-dev
+ E: Package 'libjansson-dev' has no installation candidate
+ E: Unable to locate package autotools-dev
+ `
+ 
 just remove them from the command and install the aviable or suggested ones like so 
 
 ```shell
