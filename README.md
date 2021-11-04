@@ -7,7 +7,9 @@ Their are already two Miners applications out for I0S and Android that save you 
  
 `VerusMiner9000` For Android smatphone and tablettes by @shmutalov aka Lukeisky Get it [Here](https://docs.verus.io/economy/start-mining.html#mobile){:target="\_blank"} Or [Here](https://github.com/shmutalov/VerusMiner9000/releases){:target="\_blank"}
 
-<img src="https://cdn.discordapp.com/attachments/793150468091281418/905955333602693220/ezgif.com-gif-maker_8.gif" width="350" height="350"/>
+<p align="center">
+ <img src="https://cdn.discordapp.com/attachments/793150468091281418/905955333602693220/ezgif.com-gif-maker_8.gif" width="350" height="350"/>
+</p>
 
 - I0S :
  
