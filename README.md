@@ -14,15 +14,15 @@ Their are already two Miners applications out for I0S and Android that save you 
 
 - Command Line: 💻
  
-There are two others methods (or more?), to compile ccminer on Android: The first method is installing a Linux distribution with help of [Termux + proot-distro](https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f) described on the article .
+There are two others methods (or more?), to compile ccminer on Android: The first method is installing a Linux distribution with help of [Termux + proot-distro](https://medium.com/veruscoin/mining-veruscoin-on-smartphone-208dbb06905f){:target="\_blank"} described on the article .
 
 The second methode is by compiling ccminer on Android  without any ch-rooted Linux distribution ,using a Terminal emulator Termux
 
 Follow the step by step instructions
 
-1- Download and install Termux from F-droid [here](https://f-droid.org/packages/com.termux/)
+1- Download and install Termux from F-droid [here](https://f-droid.org/packages/com.termux/){:target="\_blank"}
 
-or from the [Github release section under “Asset”](https://github.com/termux/termux-app/releases)
+or from the [Github release section under “Asset”](https://github.com/termux/termux-app/releases){:target="\_blank"}
 
 After a successful install launch the application We are going to Run all the commands inside the termux shell Window so keep it open until the end of compilation.
 
