@@ -78,21 +78,5 @@ buid the miner binarie
 ```shell
 ./build.sh
 ``` 
-if all go fine and End no errors we should find on the folder a fresh ccminer binaries ready for use 
+if all go fine and End no errors we should find on the folder a fresh ccminer binaries ready for use .
 
-```shell
-NOTES :
-**apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential**
-Reading package lists... Done
-Building dependency tree... Done
-Reading state information... Done
-Package libjansson-dev is not available, but is referred to by another package.
-This may mean that the package is missing, has been obsoleted, or
-is only available from another source
-However the following packages replace it:
-  libjansson
-E: Unable to locate package libcurl4-openssl-dev
-E: Unable to locate package libssl-dev
-E: Package 'libjansson-dev' has no installation candidate
-E: Unable to locate package autotools-dev`
-```
