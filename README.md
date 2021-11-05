@@ -23,7 +23,8 @@ The second methode is by compiling ccminer on Android  without any ch-rooted Lin
 
 Follow the step by step instructions
 
-1- Download and install Termux from ![F-droid](https://termux.com/files/fdroid.png) [Here](https://f-droid.org/packages/com.termux/){:target="\_blank"}
+1- Download and install Termux from F-droid <img src="https://termux.com/files/fdroid.png" width="&50" height="90"/> [Here](https://f-droid.org/packages/com.termux/){:target="\_blank"}
+
 
 
 or from the [Github release section under “Asset”](https://github.com/termux/termux-app/releases){:target="\_blank"}
