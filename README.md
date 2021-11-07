@@ -70,8 +70,7 @@ if you get no errors then you end on the ccminer folder,
 
 4 - Make Scripts Executables
 
-```
-
+```ruby
 chmod +x build.sh && 
  chmod +x configure.sh && 
   chmod +x autogen.sh
