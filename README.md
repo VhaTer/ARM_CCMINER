@@ -62,7 +62,9 @@ this may not work on all systems just try to read the ouput error on the termina
 3 - Clone the ccminer git repo (ARM branch):
 
 ```shell
-git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git && cd ccminer
+git clone 
+--single-branch -b ARM https://github.com/monkins1010/ccminer.git 
+&& cd ccminer
 ```
 if you get no errors then you end on the ccminer folder,
 
