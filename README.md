@@ -1,7 +1,7 @@
 ## Quick Guide on Android Mining For VerusCoin Users
 
 
-Their are already two Miners applications out for I0S and Android that save you time and worth a try
+Their are already some community Miners applications out for I0S and Android that save you time and worth a try
 
 - Android :
  
@@ -10,6 +10,9 @@ Their are already two Miners applications out for I0S and Android that save you 
 <p align="center">
  <img src="https://cdn.discordapp.com/attachments/793150468091281418/905955333602693220/ezgif.com-gif-maker_8.gif" width="350" height="350"/>
 </p>
+
+build phone mining hub without the hassle of repetitive and tedious setup
+https://github.com/pangz-lab/adb-verus-install 
 
 - I0S :
  
