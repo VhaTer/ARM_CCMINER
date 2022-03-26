@@ -1,6 +1,6 @@
 ## Quick Guide on Android Mining For VerusCoin Users
 
-
+<h1><kbd>K</kbd><kbd>B</kbd><kbd>D</kbd></h1>
 Their are already some community Miners applications out for I0S and Android that save you time and worth a try
 
 - Android :
